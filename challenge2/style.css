@@ -104,7 +104,7 @@ footer .menu a{
     color: black;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     #WhyUs .cards{
         width: 100%;
         margin-bottom: 20px;
