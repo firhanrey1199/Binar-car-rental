@@ -105,6 +105,13 @@ footer .menu a{
 }
 
 @media (max-width: 768px) {
+    .cewek {
+        display: block;
+        width: 252px;
+        height: 228px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     #WhyUs .cards{
         width: 100%;
         margin-bottom: 20px;
