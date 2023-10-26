@@ -1,0 +1,148 @@
+nav.navbar {
+    background-color: #F1F3FF;
+}
+
+.main {
+    background-color: #F1F3FF; 
+}
+
+footer{
+    margin-top: 150px;
+}
+
+footer .menu a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Search Box */
+.search-box{
+    width: 1047px;
+    height: 106px;  
+    top: 60%;
+    bottom: 50%;
+    left: 8%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.search-container{
+    display: flex;    
+}
+
+.form-box{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.form-select{
+    width: 90%;
+    height: 2.5rem;
+    font-weight: lighter;
+    line-height: 10px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #8A8A8A;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 4px;
+    
+}
+
+
+div input{
+    width: 90%;
+    height: 2.5rem;
+    font-weight: lighter;
+    line-height: 10px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #8A8A8A;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 4px;
+}
+
+div label{
+    line-height: 18px;
+    font-weight: 300;
+    color: #3C3C3C;
+    font-size: 12px;
+    padding-bottom: 5px;
+    position: relative;
+    top: -4px;
+}
+
+
+#search-button{
+    width: 100%;
+    margin-top: 3rem;
+    height: 2.7rem;
+    background-color: #5CB85F;;
+}
+
+/* Car Container */
+.car-list-container{
+    width: 60%;
+}
+
+.car-card{
+    margin-top: 5rem;
+    max-height: 100%;
+    height: auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+#car-picture{
+    height: auto;
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: center;
+}
+
+.car-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.icon-wrapper{
+    display:inline-flex;
+    padding-left: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.icon-wrapper span{
+    padding-left: 0.5rem;
+}
+
+
+div.car-card p:not(:first-child){
+    padding-left: 15px;
+}
+
+#choose-car{
+    height: 4rem;
+    width: 90%;   
+}
+
+.btn-wrapper{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#clear-btn{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
