@@ -1,0 +1,140 @@
+/* navbar */
+nav.navbar {
+    background-color: #F1F3FF;
+}
+
+/* main-section / jumbotron */
+.main {
+    background-color: #F1F3FF; 
+}
+
+.bi-check-lg {
+    background-color: #CFD4ED;
+    color: #0D28A6;
+    border-radius: 15px;
+    padding: 3px 5px;
+}
+
+/* why us */
+#WhyUs{
+    margin-top: 100px;
+}
+#WhyUs .cards{
+    border: 1px solid black;
+    width: 280px;
+    height: 200px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 30px;  
+}
+#WhyUs .cards img, h6 {
+    padding-top: 24px;
+    padding-left: 24px;
+}
+#WhyUs .cards p {
+    padding-left: 24px;
+}
+
+/* testimonial */
+.testimonial { 
+    margin-top: 152px;
+    margin-bottom: 100px;
+}
+.testimonial-heading {
+    text-align: center; 
+    margin-bottom: 40px;
+}
+.bg-aliceblue {
+    background-color: #f1f3ff;
+}
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+}
+.testimonial-rating {
+    max-height: 16px;
+}
+.testimonial-name {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    line-height: 0px;
+}
+.testimonial-media {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+.testimonial-media:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+/* banner-start */
+.mulai{
+    background-color: #0D28A6;
+    color: #fff;
+    margin: 100px auto;
+    border-radius: 13px;
+    text-align: center;
+    padding: 70px 0;
+}
+.mulai p{
+    margin: 40px auto;
+    font-size: 14px;
+    font-weight: 300;
+    width: 468px;
+    height: 40px;
+}
+
+/* FAQ */
+#FAQ .card{
+    border-radius: 4px;
+    border: 2px solid #D4D4D4; 
+}
+
+/* footer */
+footer .menu a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .cewek {
+        display: block;
+        width: 252px;
+        height: 228px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #WhyUs .cards{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mulai {
+        background-color: #0D28A6;
+        border-radius: 13px;
+        color: #fff;
+        /* display: flex; */
+        width: 90% !important;
+        padding: 64px 270px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .mulai p{
+        text-align: center;
+        width: 212px;
+    }
+    .mulai button{
+        margin-top: 32px;
+    }
+}

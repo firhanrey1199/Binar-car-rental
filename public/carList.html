@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cari.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#OurService" class="nav-link">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#WhyUs" class="nav-link">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Testimonial" class="nav-link">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#FAQ" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-success">Register</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main-section -->
+    <section class="pt-5 text-start main">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Sewa & Rental Mobil Terbaik di <br>kawasan (Lokasimu)</h1>
+                    <p class="lead my-4">
+                        Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
+                    </p>
+                </div>
+                <img class="img-fluid" src="images/img_car.png" alt="">
+            </div>
+        </div>
+    </section> 
+
+    <!-- Search Box -->
+	<div class="search-box row container">
+		<div class="search-container col-md-10">
+			<div class="col form-box">
+				<label for="tipe-driver" class="search-label">Tipe Driver</label>
+				<select name="" id="tipe-driver" class="form-select dropdown">
+					<option value="" hidden selected>Pilih Tipe Driver</option>
+					<option value="1">Dengan Sopir</option>
+					<option value="0">Tanpa Sopir (Lepas Kunci)</option>
+				</select>
+			</div>
+			<div class="col form-box">
+				<label for="avail-date" class="search-label calendar-label">Tanggal</label>
+				<input type="date" id="avail-date">
+			</div>
+			<div class="col form-box">
+				<label for="avail-time" class="search-label">Waktu Jemput/Ambil</label>
+				<select name="" id="avail-time" class="form-select clock">
+					<option value="" hidden selected>Pilih Waktu</option>
+					<option value="08:00:00">08.00 <span>WIB</span></option>
+					<option value="09:00:00">09.00 <span>WIB</span></option>
+					<option value="10:00:00">10.00 <span>WIB</span></option>
+					<option value="11:00:00">11.00 <span>WIB</span></option>
+					<option value="12:00:00">12.00 <span>WIB</span></option>
+				</select>
+			</div>
+			<div class="col form-box calendar-box">
+				<label for="car-capacity" class="search-label calendar-label">Jumlah Penumpang</label>
+				<input type="text" id="car-capacity">
+			</div>
+		</div>
+		<div class="col-md-2">
+			<button class="btn btn-success filter-button" id="search-button">Cari Mobil</button>
+		</div>
+	</div>
+
+    <!-- car result -->
+    <div class="container car-list-container">
+		<div class="row" id="car-container-element">
+		</div> 
+		<button class="btn btn-danger" id="clear-btn">Clear Cars</button>
+	</div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-md-3">
+                    <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                    <p>binarcarrental@gmail.com</p>
+                    <p>081-233-334-808</p>
+                </div>
+                <div class="col-md-3 fw-bold d-flex flex-column menu">
+                        <a href="#OurService">Our services</a>
+                        <a href="#WhyUs">Why Us</a>
+                        <a href="#Testimonial">Testimonial</a>
+                        <a href="#FAQ">FAQ</a>
+                </div>
+                <div class="col-md-3">
+                    <p>Connect with us</p>
+                    <a href="#"><img src="images/icon_facebook.png" alt=""></a>
+                    <a href="#"><img src="images/icon_instagram.png" alt=""></a>
+                    <a href="#"><img src="images/icon_twitter.png" alt=""></a>
+                    <a href="#"><img src="images/icon_mail.png" alt=""></a>
+                    <a href="#"><img src="images/icon_twitch.png" alt=""></a>
+                </div>
+                <div class="col-md-3">
+                    <p>Copyright Binar 2022</p>
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/imdYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <script type="text/javascript" src="./scripts/app.example.js"></script>
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <script type="text/javascript" src="./scripts/main.example.js"></script>
+</body>
+</html>
